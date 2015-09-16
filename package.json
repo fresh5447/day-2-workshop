@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/fresh5447/day-2-workshop",
   "dependencies": {
+    "body-parser": "^1.14.0",
     "express": "^4.13.3"
   }
 }
