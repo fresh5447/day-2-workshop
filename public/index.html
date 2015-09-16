@@ -15,5 +15,20 @@
 			<h1>Twitter Componenet</h1>
 		</div>
 		<div id="content">React here Will Be Loaded Hereeee</div>
+		<script type="text/jsx">
+			var CommentBox = React.createClass({
+			  render: function() {
+			    return (
+			      <div className="commentBox">
+			        Hello, world! I am a CommentBox.
+			      </div>
+			    );
+			  }
+			});
+			React.render(
+			  <CommentBox />,
+			  document.getElementById('content')
+			);
+		</script>
 	</body>
 </html>
